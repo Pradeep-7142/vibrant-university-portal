@@ -18,6 +18,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', href: '/', icon: <Home size={18} /> },
     { name: 'Events', href: '/events', icon: <Calendar size={18} /> },
+    { name: 'Gallery', href: '/gallery', icon: <Image size={18} /> },
     { name: 'Team', href: '/team', icon: <Users size={18} /> },
     { name: 'Contact', href: '/contact', icon: <Mail size={18} /> },
   ];
