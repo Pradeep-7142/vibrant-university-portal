@@ -3,7 +3,13 @@ import { GraduationCap, Users, BookOpen, Award, Globe, Calendar } from 'lucide-r
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/90 to-primary-dark relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4')] bg-cover bg-center mix-blend-overlay opacity-20"></div>
+      <div className="absolute inset-0">
+        <img
+          src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4"
+          alt="University Background"
+          className="w-full h-full object-cover opacity-20 mix-blend-overlay"
+        />
+      </div>
       <div className="container mx-auto px-4 z-10 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center mb-6">
